@@ -15,3 +15,6 @@
 
 * 08/26/17 Installed and Learned aquamacs
 * 00/01/17 Installed and Learned jabref
+
+# Progess
+*
