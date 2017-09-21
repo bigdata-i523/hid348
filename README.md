@@ -17,7 +17,7 @@ paper1:
    - Budhaditya Roy
    hid:
    - 348
-   title: This is my paper about xyz
+   title: Using Singularity for Big Data
    abstract: This paper showcases this and that and the other
    url: https://github.com/bigdata-i523/hid348/paper1/report.pdf
    type: latex
@@ -32,7 +32,7 @@ paper2:
    - Budhaditya Roy
    hid:
    - 348
-   title: This is my paper about xyz
+   title: Something about NOSQL people DID NOT DO IN i524 (Figure out a topic which is not covered), need approval
    abstract: This paper showcases this and that and the other
    url: https://github.com/bigdata-i523/hid348/paper2/report.pdf
    type: latex
