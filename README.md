@@ -29,13 +29,13 @@ paper1:
 ```
 paper2:
    author: 
-   - Gregor von Laszewski
+   - Budhaditya Roy
    hid:
-   - 000
-   title: This is my paper about the other abc
-   abstract: This paper showcases this and that and the other in regards to abc
-   url: https://github.com/bigdata-i523/sample-hid000/paper2/report.pdf   
-   type: word
+   - 348
+   title: This is my paper about xyz
+   abstract: This paper showcases this and that and the other
+   url: https://github.com/bigdata-i523/hid348/paper2/report.pdf
+   type: latex
    status: in progress
 ```
 
