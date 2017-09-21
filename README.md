@@ -4,9 +4,9 @@
 
 ```
 owner:
-    hid: 000
-    name: Gregor von Laszewski
-    url: https://github.com/bigdata-i523/sample-hid000
+    hid: 348
+    name: Budhaditya Roy
+    url: https://github.com/bigdata-i523/hid348
 ```
 
 # Paper 1
@@ -14,14 +14,12 @@ owner:
 ```
 paper1:
    author: 
-   - Gregor von Laszewski
-   - Fugang Wang
+   - Budhaditya Roy
    hid:
-   - 000
-   - 001
+   - 348
    title: This is my paper about xyz
    abstract: This paper showcases this and that and the other
-   url: https://github.com/bigdata-i523/sample-hid000/paper1/report.pdf
+   url: https://github.com/bigdata-i523/hid348/paper1/report.pdf
    type: latex
    status: in progress
 ```
