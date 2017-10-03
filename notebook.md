@@ -17,4 +17,5 @@
 * 00/01/17 Installed and Learned jabref
 
 # Progess
-*
+* 10/02/17 Read class overview section and starting Paper 1 (Singularity in Big Data).
+* 10/02/17 Getting know Latex and familier with it.
