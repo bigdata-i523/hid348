@@ -20,3 +20,4 @@
 * 10/02/17 Read class overview section and starting Paper 1 (Singularity in Big Data).
 * 10/02/17 Getting know Latex and familier with it.
 * 10/08/17 Almost completed Paper 1 in background, having a little difficulty understanding Latex, will figure it out today and post the paper for review.
+* Paper 1 completed 70%, expected submission date 10/11/2017 by 9.00 AM.
