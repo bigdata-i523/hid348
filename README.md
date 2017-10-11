@@ -22,7 +22,7 @@ paper1:
        This paper showcases this and that and the other
    url: https://github.com/bigdata-i523/hid348/paper1/report.pdf
    type: latex
-   status: 70%
+   status: 95%
    chapter: Technology
 ```
    
