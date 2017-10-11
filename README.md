@@ -19,7 +19,7 @@ paper1:
    - 348
    title: Using Singularity for Big Data
    abstract: >
-       This paper showcases this and that and the other
+       Discuss how using singularity in Big data could possibly change the way big data has been using now. Many of the scientists believe by 2045 singularity will hit Information technology and computing industry when machines would be similar intelligent as humans. In this paper we tried to reach a point with the effect of using singularity in big data framework where supercomputing produces more robust process for a revolutionary change in big data environment. 
    url: https://github.com/bigdata-i523/hid348/paper1/report.pdf
    type: latex
    status: 95%
