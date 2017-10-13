@@ -26,7 +26,7 @@ paper1:
        where supercomputing produces more robust process for a revolutionary change in big data environment. 
    url: https://github.com/bigdata-i523/hid348/paper1/report.pdf
    type: latex
-   status: 95%
+   status: 100%
    chapter: Technology
 ```
    
