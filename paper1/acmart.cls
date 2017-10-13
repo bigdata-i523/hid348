@@ -894,8 +894,6 @@ Computing Machinery]
   \ifx\acmConference@shortname\@empty
     \gdef\acmConference@shortname{#2}%
   \fi}
-\acmConference[Conference'17]{ACM Conference}{July 2017}{Washington,
-  DC, USA}
 \def\subtitle#1{\def\@subtitle{#1}}
 \subtitle{}
 \newcount\num@authorgroups
@@ -977,28 +975,7 @@ Computing Machinery]
     \g@addto@macro\@authornotes{%
       \stepcounter{footnote}\footnotetext{#1}}%
   \fi}
-\def\acmVolume#1{\def\@acmVolume{#1}}
-\acmVolume{1}
-\def\acmNumber#1{\def\@acmNumber{#1}}
-\acmNumber{1}
-\def\acmArticle#1{\def\@acmArticle{#1}}
-\acmArticle{1}
-\def\acmArticleSeq#1{\def\@acmArticleSeq{#1}}
-\acmArticleSeq{\@acmArticle}
-\def\acmYear#1{\def\@acmYear{#1}}
-\acmYear{2016}
-\def\acmMonth#1{\def\@acmMonth{#1}}
-\acmMonth{1}
-\def\@acmPubDate{\ifcase\@acmMonth\or
-  January\or February\or March\or April\or May\or June\or
-  July\or August\or September\or October\or November\or
-  December\fi~\@acmYear}
-\def\acmPrice#1{\def\@acmPrice{#1}}
-\acmPrice{15.00}
-\def\acmISBN#1{\def\@acmISBN{#1}}
-\acmISBN{978-x-xxxx-xxxx-x/YY/MM}
-\def\acmDOI#1{\def\@acmDOI{#1}}
-\acmDOI{10.1145/nnnnnnn.nnnnnnn}
+
 \newif\if@ACM@badge
 \@ACM@badgefalse
 \newlength\@ACM@badge@width
@@ -1166,27 +1143,7 @@ Computing Machinery]
 \def\@copyrightpermission{%
   \ifcase\acm@copyrightmode\relax % none
   \or % acmcopyright
-   Permission to make digital or hard copies of all or part of this
-   work for personal or classroom use is granted without fee provided
-   that copies are not made or distributed for profit or commercial
-   advantage and that copies bear this notice and the full citation on
-   the first page. Copyrights for components of this work owned by
-   others than ACM must be honored. Abstracting with credit is
-   permitted. To copy otherwise, or republish, to post on servers or to
-   redistribute to lists, requires prior specific permission
-   and\hspace*{.5pt}/or  a fee. Request permissions from
-   permissions@acm.org.
-  \or % acmlicensed
-   Permission to make digital or hard copies of all or part of this
-   work for personal or classroom use is granted without fee provided
-   that copies are not made or distributed for profit or commercial
-   advantage and that copies bear this notice and the full citation on
-   the first page. Copyrights for components of this work owned by
-   others than the author(s) must be honored. Abstracting with credit
-   is permitted.  To copy otherwise, or republish, to post on servers
-   or to  redistribute to lists, requires prior specific permission
-   and\hspace*{.5pt}/or  a fee. Request permissions from
-   permissions@acm.org.
+ 
   \or % rightsretained
    Permission to make digital or hard copies of part or all of this work
    for personal or classroom use is granted without fee provided that
@@ -1332,21 +1289,9 @@ Computing Machinery]
           \emph{\@journalName}%
         \else
           \emph{Proceedings of \acmConference@name, \acmConference@date}%
-        \fi
-        \ifx\@acmDOI\@empty
-        .
-        \else
-          , \@formatdoi{\@acmDOI}.
-        \fi\\
-      \else
-        \if@ACM@journal
-          \@permissionCodeOne/\@acmYear/\@acmMonth-ART\@acmArticle\
-          \$\@acmPrice\\
-          DOI: \nolinkurl{\@acmDOI}%
-        \else % Conference
-           \@acmISBN
-           \ifx\@acmPrice\@empty.\else\dots\$\@acmPrice\fi\\
-           DOI: \nolinkurl{\@acmDOI}%
+
+     
+
         \fi
       \fi
     \fi}%
@@ -1792,13 +1737,7 @@ Computing Machinery]
    \ignorespaces\@abstract\par}%
   \fi\egroup}
 \def\@mkbibcitation{\bgroup
-  \def\footnotemark{}%
-  \par\medskip\small\noindent{\bfseries ACM Reference format:}\par\nobreak
-  \noindent\authors. \@acmYear. \@title.
-  \if@ACM@journal
-     \textit{\@journalNameShort}
-     \@acmVolume, \@acmNumber, Article~\@acmArticle\ (\@acmPubDate),
-     \ref{TotPages}~pages.
+  
   \else
      In \textit{Proceedings of \acmConference@name, \acmConference@venue,
        \acmConference@date
@@ -1806,7 +1745,7 @@ Computing Machinery]
          \ (\acmConference@shortname)\fi
          ,} \ref{TotPages}~pages.
   \fi\par
-  \noindent DOI: \nolinkurl{\@acmDOI}
+  \noindent  : \nolinkurl{\@acmDOI}
 \par\egroup}
 \def\@printendtopmatter{\par\medskip
   \ifcase\ACM@format@nr
