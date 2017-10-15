@@ -1,0 +1,43 @@
+---
+owner:
+    hid: 348
+    name: Budhaditya Roy
+    url: https://github.com/bigdata-i523/hid348
+paper1:
+    abstract: "Discuss how using singularity in Big data could possibly change the\
+        \ way big data has been using now. Many of the scientists believe by 2045\
+        \ singularity will hit Information technology and computing industry when\
+        \ machines would be similar intelligent as humans. In this paper we tried\
+        \ to reach  a point with the effect of using singularity in big data framework\
+        \  where supercomputing produces more robust process for a revolutionary change\
+        \ in big data environment. \n"
+    author:
+        - Budhaditya Roy
+    chapter: Technology
+    hid:
+        - 348
+    status: 100% Oct 13 17
+    title: Using Singularity for Big Data
+    type: latex
+    url: https://github.com/bigdata-i523/hid348/paper1/report.pdf
+paper2:
+    abstract: This paper showcases this and that and the other
+    author:
+        - Budhaditya Roy
+    hid:
+        - 348
+    status: 0%
+    title: Something about NOSQL people DID NOT DO IN i524 Figure out a topic which
+        is not covered need approval
+    type: latex
+    url: https://github.com/bigdata-i523/hid348/paper2/report.pdf
+project:
+    abstract: This paper showcases tis and that and the other
+    author:
+        - Budhaditya Roy
+    pid:
+        - hid348
+    status: 0%
+    title: Benchmarking a BigData Docker deployment
+    type: latex
+    url: https://github.com/bigdata-i523/hid348/project/report.pdf
