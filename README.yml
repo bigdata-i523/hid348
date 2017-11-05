@@ -29,7 +29,7 @@ paper2:
         - Budhaditya Roy
     hid:
         - 348
-    status: 30%
+    status: 90%
     title:  Security aspect of NOSQL database in Big Data Applications
     type: latex
     url: https://github.com/bigdata-i523/hid348/paper2/report.pdf
