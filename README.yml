@@ -24,12 +24,21 @@ paper1:
 
 paper2:
     review: Nov 6 2017
-    abstract: This paper showcases this and that and the other
+    abstract: NOSQL databases play an integral part in analyzing and organizing vast quantities of data.
+    The recent advancement of big data applications involve datasets which are fast changing, massive and 
+    diverse in nature. As innovation of big data progresses, next big thing comes to the world of development is where to 
+    store this voluminous data which is core of any big data application. With the evolution of NOSQL databases data storage
+    problem was resolved but a new concern has risen sharply, the ‘Security’. In today’s world data governance, in form of
+    data security plays a most imperative role in success of every organization.  NoSQL databases are designed to deliver real 
+    time performance in keeping large volume of data stored but while developing these databases security was not a primary subject
+    rather performance, velocity, scalability were top of the list. This paper talks about the security aspect of NOSQL
+    databases in big data application and how organizations can implement NOSQL databases considering the security 
+    and whether having these databases a wise decision on picking up right databases in big data application.
     author:
         - Budhaditya Roy
     hid:
         - 348
-    status: 90%
+    status: 100%
     title:  Security aspect of NOSQL database in Big Data Applications
     type: latex
     url: https://github.com/bigdata-i523/hid348/paper2/report.pdf
