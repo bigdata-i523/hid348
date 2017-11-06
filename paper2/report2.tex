@@ -1,1 +1,83 @@
 
+\begin{document}
+\title{Security aspect of NOSQL databases in Big Data Application}
+
+
+\author{Budhaditya Roy}
+\orcid{hid 348}
+\affiliation{%
+  \institution{Indiana University}
+  \streetaddress{School of Information and Computing}
+  \city{Bloomington} 
+  \state{IN} 
+  \postcode{47040}
+}
+\email{royb@indiana.edu}
+
+% The default list of authors is too long for headers}
+\renewcommand{\shortauthors}{B.Roy.}
+
+
+\begin{abstract}
+NOSQL databases play an integral part in analyzing and organizing vast quantities of data. The recent advancement of big data applications involve datasets which are fast changing, massive and diverse in nature. As innovation of big data progresses, next big thing comes to the world of development is where to store this voluminous data which is core of any big data application. With the evolution of NOSQL databases data storage problem was resolved but a new concern has risen sharply, the ‘Security’. In today’s world data governance, in form of data security plays a most imperative role in success of every organization.  NoSQL databases are designed to deliver real time performance in keeping large volume of data stored but while developing these databases security was not a primary subject rather performance, velocity, scalability were top of the list. This paper talks about the security aspect of NOSQL databases in big data application and how organizations can implement NOSQL databases considering the security and whether having these databases a wise decision on picking up right databases in big data application.
+\end{abstract}
+
+\keywords{NoSQL databases, Security, HID348, Big Data Applications in NOSQL, MongoDB, Apache Cassandra, Confidentiality, Integrity, Availability}
+
+
+\maketitle
+
+\section{Introduction of NOSQL in Big Data}
+In last 20 years we have seen the data boom where the volume, velocity and variety of data has increased almost nine times and within last five years it has become even more. Big Data refers to collection of large volume of data characterized as multi “V” \cite{editor01}. Big Data and Data intensive technologies are going through a technological advancements with relation to all aspect of human activity [3]. NoSQL, “Not Only SQL” is a non-relational databases which is certainly popular databases which are scalable, help in large big data application deployment, easy to implement and highly usable in storing unstructured and semi structured data. NOSQL databases are also very cost efficient and most of the time these are open source. When scale this solution, the cost factor not always gauge with security. This databases are different. NoSQL is designed to be accessed by trusted clients. NoSQL databases are flexible databases used in big data applications and real time web apps. These kind of databases do not have a predefined schema and a flexibility in data model are the feature which can be a great benefit for the companies to implement this product\cite{editor01}. NOSQL also has not predefined data structures along with ability to handle huge amount of unstructured data. NOSQL databases also have remarkable benefits in scaling, it uses scale out/horizontal scaling methods whereas traditional relationship databases use vertical scaling or scaling up. In today’s world 90 percent of use cases are not required a relational database, RDDMS is often implemented because of support from IT team and which can be easily productionize. Since successful applications are gaining more users and more data in every second scaling become an essential part of big data industry. Along with aforesaid benefits NOSQL databases carry a significant security risks where compromising data is possible occurrence \cite{editor02}. There have been studies on whether NoSQL databases can stand alone in the organization and truly used against relational databases keeping in mind the importance of data. 
+
+\section{Security Issues in NOSQL Databases }
+There are many security issues in big data. The most important security issue is data protection and access control\cite{editor02}. NoSQL databases are great for big data but security is repeatedly lacking in NOSQL applications. There is a high need of having access control on the semantic layer of the data as well as in place superior attribute relationship methodology. As NOSQL databases are designed to provide real time performance while managing large volume of data there is a risk of security implication moving from relational databases to NOSQL database. Currently NOSQL databases are in evolutionary stage of their lifecycle and as they progress daily, security protocols for NOSQL databases are not well defined yet. Days are probably not far when we would see a data breach from NOSQL injections\cite{editor02}.  Question is whether NOSQL is really that vulnerable to security breach. There are two aspect of answering this question. Firstly, NOSQL databases are designed to hold gigabytes of data which is a golden ball to attackers, secondly, since NOSQL databases are primarily developed for performance impressive and as high scalable product security was not at all primary. Many of the NOSQL products recommend users to have the TCP/IP in trusted environment but in an internet–enabled world relaying on network would be too dangerous to have. Security measures are mainly divided into four main categories such as Injection, Authentication, Authorization and Confidentiality.
+
+
+\subsection{Injection Attack-} Every databases are built on certain languages. To attack any databases it is required to know which language is used. SQL injection attacks are increasing daily and NOSQL databases are mostly vulnerable to these attacks. Since NOSQL databases do not use SQL, instead use JavaScript Object Notation (JSON) query language and HTTP API that makes traditional injection obsolete. In recent times Schema injections are used most frequently to use as an extra protection layer. There are two type of schema injection overrides can be implemented. First is override schema in JSON object itself and another is external override schema \cite{editor03}.
+
+\subsection{Authentication-} Authentications are most important aspect of any databases irrespective of the type, especially in NOSQL database, there is a need of strong authentication channel, strong password protection methods and password bruteforcing opportunism.  In NOSQL authentication was not enables at all when starting newly established application. Two types of authentication methods which strongly need to be enables in NOSQL databases are, HTTP/RESTful authentication and Non-HTTP/RESTful authentication. Databases such as Apche CouchDB uses one of three types of authentication HTTP Basic, DIGEST or Coockie based authentication \cite{editor03}. There is a lack of usability of SSL and encryption in these kind of databases where HTTP authentications are used. A reverse proxy server or loan bouncer is advisable for these databases. 
+
+\subsection{Authorization-} In relational database Data control language or DCL plays a secure role in table level security measures. This is native access control built in to the language. In NOSQL there is no such DCL concept available right now except for database level access control it is more architecture dependent \cite{editor04}.  Most NOSQL databases have some common authentication feature as Admin role which is related to DML access role in relational database. In general authorization is not required unless it is enabled for almost all NOSQL databases which can pose to data security risk.
+
+
+\subsection{Confidentiality-} There is a lack of confidentiality exists in NOSQL database architecture. There is some SSL support but beyond that there is no extra SSL layer to support confidentiality\cite{editor03}. There are third party software companies available which can provide support by adding a proxy servers to encrypt the data and users information, added to an extra cost. 
+
+\section{Other Security Issues of NOSQL Database-} Most of the NOSQL databases currently used have a very thin security layer along with string clustering mechanism which create more challenges in security implementation. There is a risk of security breaches from insider attack due to poor logging and log analysis method. There is also auditing risk in NOSQL security along with risk of database attacks when data at rest, in motion and in use stage. 
+
+\section{Securing NOSQL Environment-} There are couple of ways we can secure NOSQL deployments. There needs to be a trusted operating environment in place and there are necessities to understand on how the data are input and output from the system. There has to be access control on SSL encryption. Since these databases cannot operate on their own and often times these services are run on public IP addresses. There is a prerequisite of adding additional VPN into the architecture and increase TCO deployment times by adding an additional security layer. Besides, NOSQL environment need to be tight on validation. Since the NOSQL injection attack surface is diverse schema, JavaScript and query injection attacks affect NOSQL architecture differently. In order to prevent these attacks, it is necessary to understand how these attacks can affect the application as a whole along with NOSQL environment. There has to be a continuous validation to non-traditional injection attacks. Last but not the least there is a constant communication to the NOSQL vendor is highly opted in. Since NOSQL vendors have frequent releases, adding features to the NOSQL system is necessary to keep the environment secure.
+
+\section{NOSQL Databases and Security features-} Based on data storage model, NOSQL databases are categorized in following four sub categories. Such as, Key- Value databases, Colum databases, Document Databases, Graph Databases [3]. Main security feature of some of the NOSQL databases are discussed.
+
+\subsection{MongoDB}
+MongoDB is a document database with high performance, large scale high availability, and robust system. It is designed to run on top of data driven applications high level programming models, computing resources and process of automation. Trusted environment is the default option and is recommended. It is often better to run the database in a trusted environment with no in-database security authentication \cite{editor03} . All data in MongoDB are stored as a plain text and overall environment lacks of data encryption \cite{editor03}. Since MongoDB does not provide automatic encryption, attackers can easily access database files to extract information. Binary wire level protocols are not well connected to the client causing a lack of authentication support. MongoDB architecture is built on JavaScript language which is more prone to attack due to being an interpreted language. Even further MongoDB does not support data validation and data auditing and since authentication information is hash encrypted in MD5 algorithm there is a potential risk due to MD5 less tight security measures \cite{editor05}.
+
+\subsection{Apache Cassandra}
+Apache Cassandra Is a column based database which is distributed storage system. Files in Cassandra are kept unencrypted and there is no mechanism of automatic data encryption. There is a potential security compromise when database and client communicate due to lack of encryption as well.  Cassandra has its own Cassandra query language or CQL which is disposed to to external security injection attacks \cite{editor05}.  Though Cassandra provides an encrypted intercluster network communication where enabling this feature is required from an external client. 
+
+\subsection{Redis}
+Redis is an open source key-value store which is designed to be accessed by trusted clients inside trusted environment. [1] There is a key value match in these type of databases and data is stored in the key value pair. Which means it is not a inordinate idea to expose Redis instances directly to the internet where untrusted clients can directly access TCP/IP port and external intrusion is very much conceivable. Network security is highly desirable for this environment where access to Rediss port should be denied to any kind of external access point preventing with a firewall. Redis is hard to protect from being accessed by external networks and many instances are exposed to public IP addresses \cite{editor03}. 
+
+\subsection{Apache HBase}
+Apache HBase- Apache HBase is an open source column based database model. HBase is scaled to handle millions of data sets and billons of column and rows in form of unstructured and semi structured format by using wide variety of different structures and schemas \cite{editor07}. Data security of HBase depends on SSH for internode communication \cite{editor07}.  It has security and authentication layer added to an extract security protocol. 
+
+\subsection{Neo4J}
+Neo4J is an open source graph databases which uses SSL protocol to communicate between database and client. There is no data encryption between database server and client which allows potential security vulnerability. It provides node level data security based on ACL’s with groups, users and variety odd access levels. Though user authentication is prevailing in Neo4J, there is a lack of security in overall database level \cite{editor03}.
+
+\subsection{Apache CouchDB}
+Apache CouchDB is a document databases which allows any request to be made by anyone, any rogue client could enter along and delete a database \cite{editor06}. Default installation in the interest is compromised. CouchDB supports authentication on coockie and password but there is no encryption in database level as well as client server commutation level. Authentication in this environment is only at database level and access control accepts only single user role authentication \cite{editor06}.
+
+\section{CONCLUSION}
+With the growth of big data, organizations more into NOSQL databases where security is a growing concern. Though we found there are severe security issues in most of the NOSQL databases which are used today in big data environment. Lack of security measures put extra sensitivity to the overall big data applications being NOSQL databases are heart of any big data project. Though not reached at pick, constant evaluation and research are in process to make NOSQL databases more secure in near future. 
+
+\begin{acks}
+
+  The author would like to thank Dr. Gregor von Laszewski and I523.
+
+\end{acks}
+
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{report} 
+
+\end{document}
