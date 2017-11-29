@@ -22,4 +22,6 @@
 * 10/08/17 Almost completed Paper 1 in background, having a little difficulty understanding Latex, will figure it out today and post the paper for review.
 * Paper 1 completed 70%, expected submission date 10/11/2017 by 9.00 AM.
 * 10/20/17 Paper 1 Error review in process, 90% review completed in backend.
-* 11/05/17 Paaper 2 in process , 90% completed 
+* 11/05/17 Paper 2 in process , 90% completed 
+* 11/06/17 Paper 2 is completed, 100% 
+* 11/27/17 Term paper is in progress, 30% completed
