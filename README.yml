@@ -60,7 +60,7 @@ project:
     abstract: Big Data Application in Precision Medicine & Pharmacogenomics
     author:
         - Budhaditya Roy
-    pid:
+    hid:
         - hid348
     status: 80%
     title: Benchmarking a BigData Docker deployment
