@@ -54,15 +54,15 @@ paper2:
     status: 100%
     title: Security aspect of NOSQL database in Big Data Applications
     type: latex
-    url: https://github.com/bigdata-i523/hid348/paper2/report.pdf
-
+    url: https://github.com/bigdata-i523/hid348/paper2/report
 project:
     abstract: Big Data Application in Precision Medicine & Pharmacogenomics
     author:
         - Budhaditya Roy
-    pid:
-        - hid348
+    hid:
+        - 348
     status: 80%
-    title: Benchmarking a BigData Docker deployment
-    type: unkown
-    url: https://github.com/bigdata-i523/hid348/project/report.pdf
+    title: Not submitted
+    type: project
+    url: https://github.com/bigdata-i523/hid348/project/report
+    chapter: TBD
