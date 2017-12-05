@@ -56,13 +56,26 @@ paper2:
     type: latex
     url: https://github.com/bigdata-i523/hid348/paper2/report
 project:
-    abstract: Big Data Application in Precision Medicine & Pharmacogenomics
+    abstract:This article focuses on the impending impact of big data analytics improving health, 
+    preventing and detecting illness at a preliminary stage of illness and personalize interferences.
+    The complexity and diversity of biological data are pouring the need of big data analytics and how it is applied in
+    biological field especially in Pharmacogenetics, personalized/precision medicine. Big data is particularly very useful
+    in the healthcare industry as a whole for its data handling intensive nature. Over the past decade, electronic health 
+    records (EHR) have become an extensively accepted in hospitals and clinics worldwide and the amount of information is 
+    generally daily from a single patient is increasing day by day. Important clinical acquaintance and a deeper understanding 
+    of patient disease patterns can be deliberate from such data. It will help to improve patient care as well improve efficiency 
+    of patient care and disease prevention. There are few applications pointed out to be effective using big data such as Healthcare 
+    data solutions and big data in cancer therapy, continuous monitoring of patients symptoms, healthcare intelligence, 
+    fraud prevention and detection. Many people heard about the proposition of precision medicine in State of Union 
+    speech of President Obama in 2012. Since then the revolutionary process of precision medicine started to grow 
+    rapidly in healthcare industry. On January 30, on the same Precision based medical initiatives, the Obama administration 
+    exposed facts about the Precision Medicine tentative plans.
     author:
         - Budhaditya Roy
     hid:
         - 348
-    status: 80%
-    title: Not submitted
+    status: 100%
+    title: submitted
     type: project
     url: https://github.com/bigdata-i523/hid348/project/report
     chapter: TBD
