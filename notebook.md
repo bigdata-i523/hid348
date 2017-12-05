@@ -25,3 +25,4 @@
 * 11/05/17 Paper 2 in process , 90% completed 
 * 11/06/17 Paper 2 is completed, 100% 
 * 11/27/17 Term paper is in progress, 30% completed
+* 12/04/17 Term paper completed ,1005% status
