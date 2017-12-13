@@ -4,6 +4,7 @@ owner:
     name: Budhaditya Roy
     url: https://github.com/bigdata-i523/hid348
 paper1:
+    exclude: True
     abstract: >
         Discuss how using singularity in Big data could possibly
         change the way big data has been using now. Many of the
