@@ -21,7 +21,6 @@ paper1:
         - 348
     status: 100% Oct 25 17
     title: Using The Singularity for Big Data
-    type: latex
     url: https://github.com/bigdata-i523/hid348/paper1/report.pdf
 
 paper2:
@@ -54,7 +53,6 @@ paper2:
         - 348
     status: 100%
     title: Security aspect of NOSQL database in Big Data Applications
-    type: latex
     url: https://github.com/bigdata-i523/hid348/paper2/report
 project:
     abstract: >
